@@ -62,10 +62,6 @@
 
 ## **🚀 Featured Projects**
 
-<div align="center">
-  <img src="assets/project-cards.svg" alt="Project cards" width="900" />
-</div>
-
 <table>
   <tr>
     <td width="50%" style="padding: 16px; background: rgba(168,85,247,0.06); border: 1px solid rgba(168,85,247,0.22); border-radius: 16px;">
