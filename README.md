@@ -6,6 +6,22 @@
   <img src="https://readme-typing-svg.demolab.com?font=Jetbrains+Mono&size=32&color=A855F7&center=true&vCenter=true&width=800&height=80&lines=E+Nausheen+%F0%9F%91%8B;CS+Student+%7C+AI%2FML+Engineer;Full+Stack+Developer" alt="Typing SVG" />
 </div>
 
+<div align="center">
+  <table>
+    <tr>
+      <td width="33%" style="padding: 12px; background: rgba(168,85,247,0.10); border: 1px solid rgba(168,85,247,0.35); border-radius: 12px;">
+        <strong>⚙️ AI Systems</strong>
+      </td>
+      <td width="33%" style="padding: 12px; background: rgba(34,211,238,0.10); border: 1px solid rgba(34,211,238,0.35); border-radius: 12px;">
+        <strong>🧠 Problem Solving</strong>
+      </td>
+      <td width="33%" style="padding: 12px; background: rgba(16,185,129,0.10); border: 1px solid rgba(16,185,129,0.35); border-radius: 12px;">
+        <strong>🚀 Product Thinking</strong>
+      </td>
+    </tr>
+  </table>
+</div>
+
 ---
 
 <div align="center">
@@ -20,9 +36,9 @@
 ## **🎯 About Me**
 
 <div align="center">
-  <table>
+  <table style="width: 100%; border-collapse: separate; border-spacing: 0;">
     <tr>
-      <td width="100%" valign="top" style="padding: 24px; background: linear-gradient(135deg, rgba(168,85,247,0.12), rgba(34,211,238,0.08)); border: 1px solid rgba(148,163,184,0.35); border-radius: 18px;">
+      <td width="100%" valign="top" style="padding: 24px; background: linear-gradient(135deg, rgba(168,85,247,0.12), rgba(34,211,238,0.08)); border: 1px solid rgba(148,163,184,0.35); border-radius: 18px; box-shadow: 0 0 0 1px rgba(255,255,255,0.04), 0 10px 30px rgba(168,85,247,0.12); transition: transform 0.2s ease, box-shadow 0.2s ease;">
         <p><b>AI + Systems + Product</b></p>
         <p>I build production-ready systems that solve real problems. My work sits at the intersection of <b>AI/ML</b>, <b>backend architecture</b>, and <b>web development</b>.</p>
         <p>I’m a CS student focused on building practical AI tools, scalable systems, and polished product experiences that turn ideas into working software.</p>
@@ -34,6 +50,11 @@
         </p>
       </td>
     </tr>
+    <tr>
+      <td style="padding-top: 8px;">
+        <div style="height: 8px; width: 100%; border-radius: 999px; background: linear-gradient(90deg, #8B5CF6, #22D3EE, #10B981, #F59E0B); opacity: 0.9; box-shadow: 0 0 18px rgba(34,211,238,0.35);"></div>
+      </td>
+    </tr>
   </table>
 </div>
 
@@ -43,7 +64,7 @@
 
 <table>
   <tr>
-    <td width="50%">
+    <td width="50%" style="padding: 16px; background: rgba(168,85,247,0.06); border: 1px solid rgba(168,85,247,0.22); border-radius: 16px;">
       <h3>📚 Course-in-LLMs</h3>
       <p>Deep dive into LLM architecture, fine-tuning, and deployment. Hands-on implementations from scratch.</p>
       <p>
@@ -53,7 +74,7 @@
       </p>
       <a href="https://github.com/Nausheen2206/Course-in-LLM-s">View Project →</a>
     </td>
-    <td width="50%">
+    <td width="50%" style="padding: 16px; background: rgba(34,211,238,0.06); border: 1px solid rgba(34,211,238,0.22); border-radius: 16px;">
       <h3>🔥 Enterprise Network Firewall</h3>
       <p>Systems-level firewall simulation. Packet filtering, rule engine, real network protocols.</p>
       <p>
@@ -65,7 +86,7 @@
     </td>
   </tr>
   <tr>
-    <td width="50%">
+    <td width="50%" style="padding: 16px; background: rgba(16,185,129,0.06); border: 1px solid rgba(16,185,129,0.22); border-radius: 16px;">
       <h3>🔍 Code Plagiarism Detector</h3>
       <p>ML-powered code similarity engine using AST analysis. 95%+ accuracy on detection.</p>
       <p>
@@ -75,7 +96,7 @@
       </p>
       <a href="https://github.com/Nausheen2206/CodePlagiarismDetector">View Project →</a>
     </td>
-    <td width="50%">
+    <td width="50%" style="padding: 16px; background: rgba(251,191,36,0.06); border: 1px solid rgba(251,191,36,0.22); border-radius: 16px;">
       <h3>🎮 Crossword Puzzle Game</h3>
       <p>Interactive puzzle solver with AI hint generation. Full UI with word database.</p>
       <p>
@@ -87,7 +108,7 @@
     </td>
   </tr>
   <tr>
-    <td width="100%" colspan="2">
+    <td width="100%" colspan="2" style="padding: 18px; background: rgba(244,114,182,0.06); border: 1px solid rgba(244,114,182,0.22); border-radius: 16px;">
       <h3>🤖 StudyFlow AI</h3>
       <p>Adaptive learning assistant powered by LLMs. Personalized study paths, smart Q&A, spaced repetition.</p>
       <p>
