@@ -1,0 +1,55 @@
+name: 🚀 Advanced Profile Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Generate N Monogram
+        run: python scripts/generate_n_monogram.py
+
+      - name: Generate Skills Radar
+        run: python scripts/generate_skills_radar.py
+
+      - name: Generate Project Cards
+        run: python scripts/generate_project_cards.py
+
+      - name: Get GitHub Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          user: Nausheen2206
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: header,repositories,metadata
+          output_action: gist
+          filename: metrics.svg
+          committer_message: "chore: auto-update profile metrics"
+          committer_name: GitHub Action
+
+      - name: Contribution Snake
+        uses: Platane/snk@master
+        with:
+          github_user_name: Nausheen2206
+          outputs: |
+            assets/snake.svg
+
+      - name: Commit updates
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add assets/
+          git commit -m "chore: auto-update profile assets [skip ci]" || true
+          git push

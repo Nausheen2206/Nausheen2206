@@ -1,0 +1,39 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="500" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#1F2937"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" rx="24" fill="url(#bg)"/>
+  <g opacity="0.9">
+    <polygon points="250,50 390,155 390,345 250,450 110,345 110,155" stroke="#374151" stroke-width="1.5" fill="none"/>
+    <polygon points="250,90 350,165 350,335 250,410 150,335 150,165" stroke="#374151" stroke-width="1.5" fill="none"/>
+    <polygon points="250,130 310,185 310,315 250,370 190,315 190,185" stroke="#374151" stroke-width="1.5" fill="none"/>
+    <polygon points="250,170 270,250 250,330 230,250" stroke="#374151" stroke-width="1.5" fill="none"/>
+  </g>
+  <g>
+    <line x1="250" y1="250" x2="250" y2="80" stroke="#475569"/>
+    <line x1="250" y1="250" x2="420" y2="250" stroke="#475569"/>
+    <line x1="250" y1="250" x2="130" y2="250" stroke="#475569"/>
+    <line x1="250" y1="250" x2="390" y2="145" stroke="#475569"/>
+    <line x1="250" y1="250" x2="390" y2="355" stroke="#475569"/>
+    <line x1="250" y1="250" x2="110" y2="355" stroke="#475569"/>
+    <line x1="250" y1="250" x2="110" y2="145" stroke="#475569"/>
+  </g>
+  <polygon points="250,80 370,190 300,355 160,375 120,210" fill="url(#ring)" fill-opacity="0.22" stroke="url(#ring)" stroke-width="3"/>
+  <g fill="#E5E7EB" font-family="Arial, sans-serif" font-size="16" font-weight="600">
+    <text x="250" y="55" text-anchor="middle">AI</text>
+    <text x="415" y="250" text-anchor="middle">Web</text>
+    <text x="250" y="470" text-anchor="middle">ML</text>
+    <text x="85" y="250" text-anchor="middle">Systems</text>
+    <text x="390" y="140" text-anchor="middle">Python</text>
+    <text x="390" y="370" text-anchor="middle">Data</text>
+    <text x="110" y="140" text-anchor="middle">Cloud</text>
+    <text x="110" y="370" text-anchor="middle">Design</text>
+  </g>
+</svg>

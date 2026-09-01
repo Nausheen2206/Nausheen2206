@@ -1,0 +1,39 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="220" rx="18" fill="url(#bg)"/>
+  <g>
+    <rect x="40" y="45" width="250" height="120" rx="12" fill="#111827" stroke="#374151"/>
+    <text x="60" y="80" fill="#A5B4FC" font-family="Arial, sans-serif" font-size="14">Repositories</text>
+    <text x="60" y="125" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="36" font-weight="700">18+</text>
+    <text x="60" y="145" fill="#94A3B8" font-family="Arial, sans-serif" font-size="12">active projects</text>
+
+    <rect x="320" y="45" width="250" height="120" rx="12" fill="#111827" stroke="#374151"/>
+    <text x="340" y="80" fill="#A5B4FC" font-family="Arial, sans-serif" font-size="14">Commits</text>
+    <text x="340" y="125" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="36" font-weight="700">650+</text>
+    <text x="340" y="145" fill="#94A3B8" font-family="Arial, sans-serif" font-size="12">tracked</text>
+
+    <rect x="600" y="45" width="250" height="120" rx="12" fill="#111827" stroke="#374151"/>
+    <text x="620" y="80" fill="#A5B4FC" font-family="Arial, sans-serif" font-size="14">Focus</text>
+    <text x="620" y="125" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="30" font-weight="700">AI / ML</text>
+    <text x="620" y="145" fill="#94A3B8" font-family="Arial, sans-serif" font-size="12">systems & web</text>
+
+    <rect x="880" y="45" width="250" height="120" rx="12" fill="#111827" stroke="#374151"/>
+    <text x="900" y="80" fill="#A5B4FC" font-family="Arial, sans-serif" font-size="14">Learning</text>
+    <text x="900" y="125" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="30" font-weight="700">Daily</text>
+    <text x="900" y="145" fill="#94A3B8" font-family="Arial, sans-serif" font-size="12">build + improve</text>
+  </g>
+  <g>
+    <path d="M54 150 C180 160, 240 86, 310 110 S470 180, 540 140 S675 86, 760 110 S930 170, 1085 100" stroke="url(#accent)" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <circle cx="540" cy="140" r="5" fill="#A855F7"/>
+    <circle cx="760" cy="110" r="5" fill="#22D3EE"/>
+  </g>
+</svg>

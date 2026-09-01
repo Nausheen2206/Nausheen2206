@@ -1,0 +1,53 @@
+def generate_n_monogram(output_file="assets/n-monogram.svg"):
+    """Generate animated N monogram with dot matrix effect"""
+    
+    svg = '''<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes pulse {
+        0%, 100% { fill: #A855F7; opacity: 1; }
+        50% { fill: #E9D5FF; opacity: 0.6; }
+      }
+      @keyframes slideIn {
+        0% { transform: translateX(-20px); opacity: 0; }
+        100% { transform: translateX(0); opacity: 1; }
+      }
+      .dot {
+        animation: pulse 2s infinite;
+      }
+      .dot:nth-child(odd) { animation-delay: 0s; }
+      .dot:nth-child(even) { animation-delay: 0.2s; }
+      .container { animation: slideIn 0.8s ease-out; }
+    </style>
+  </defs>
+
+  <g class="container">
+    <!-- Background -->
+    <rect width="200" height="200" rx="20" fill="#0d1117" stroke="#A855F7" stroke-width="2"/>
+    
+    <!-- Vertical left line of N -->
+    <circle class="dot" cx="50" cy="50" r="8" />
+    <circle class="dot" cx="50" cy="80" r="8" />
+    <circle class="dot" cx="50" cy="110" r="8" />
+    <circle class="dot" cx="50" cy="140" r="8" />
+    
+    <!-- Diagonal of N -->
+    <circle class="dot" cx="70" cy="70" r="8" />
+    <circle class="dot" cx="90" cy="90" r="8" />
+    <circle class="dot" cx="110" cy="110" r="8" />
+    <circle class="dot" cx="130" cy="130" r="8" />
+    
+    <!-- Vertical right line of N -->
+    <circle class="dot" cx="150" cy="50" r="8" />
+    <circle class="dot" cx="150" cy="80" r="8" />
+    <circle class="dot" cx="150" cy="110" r="8" />
+    <circle class="dot" cx="150" cy="140" r="8" />
+  </g>
+</svg>'''
+    
+    with open(output_file, 'w') as f:
+        f.write(svg)
+    print(f"✓ N monogram created: {output_file}")
+
+if __name__ == "__main__":
+    generate_n_monogram()
