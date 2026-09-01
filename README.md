@@ -19,9 +19,23 @@
 
 ## **🎯 About Me**
 
-I build production-ready systems that solve real problems. Full-stack AI engineer learning at the intersection of **systems**, **ML**, and **web development**.
-
-I’m a CS student focused on building practical AI tools, backend systems, and polished web experiences that turn ideas into working products.
+<div align="center">
+  <table>
+    <tr>
+      <td width="100%" valign="top" style="padding: 24px; background: linear-gradient(135deg, rgba(168,85,247,0.12), rgba(34,211,238,0.08)); border: 1px solid rgba(148,163,184,0.35); border-radius: 18px;">
+        <p><b>AI + Systems + Product</b></p>
+        <p>I build production-ready systems that solve real problems. My work sits at the intersection of <b>AI/ML</b>, <b>backend architecture</b>, and <b>web development</b>.</p>
+        <p>I’m a CS student focused on building practical AI tools, scalable systems, and polished product experiences that turn ideas into working software.</p>
+        <p>
+          <img src="https://img.shields.io/badge/LLMs-8B5CF6?style=flat-square" />
+          <img src="https://img.shields.io/badge/Backend-22D3EE?style=flat-square" />
+          <img src="https://img.shields.io/badge/Web-10B981?style=flat-square" />
+          <img src="https://img.shields.io/badge/Systems-FF7A59?style=flat-square" />
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
