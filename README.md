@@ -111,21 +111,36 @@
 
 ### **Frameworks & Tools**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+<div align="center">
+  <img src="assets/frameworks.svg" alt="Frameworks" width="800"/>
+</div>
 
 ### **Core Strengths**
 
-- AI/ML and LLM-based systems
-- Operating systems and backend architecture
-- Data structures and algorithmic problem solving
-- Web application development and APIs
-- Computer networks and distributed systems
+<div align="center">
+  <table>
+    <tr>
+      <td width="33%" style="padding: 12px; background: rgba(168,85,247,0.10); border: 1px solid rgba(168,85,247,0.35); border-radius: 12px;">
+        <strong>🤖 AI & LLMs</strong>
+      </td>
+      <td width="33%" style="padding: 12px; background: rgba(34,211,238,0.10); border: 1px solid rgba(34,211,238,0.35); border-radius: 12px;">
+        <strong>🧠 Systems</strong>
+      </td>
+      <td width="33%" style="padding: 12px; background: rgba(16,185,129,0.10); border: 1px solid rgba(16,185,129,0.35); border-radius: 12px;">
+        <strong>🌐 Web</strong>
+      </td>
+    </tr>
+    <tr>
+      <td width="33%" style="padding: 12px; background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.30); border-radius: 12px;">
+        <strong>📚 DSA</strong>
+      </td>
+      <td width="33%" style="padding: 12px; background: rgba(251,191,36,0.08); border: 1px solid rgba(251,191,36,0.30); border-radius: 12px;">
+        <strong>🖥️ OS</strong>
+      </td>
+      <td width="33%" style="padding: 12px; background: rgba(244,114,182,0.08); border: 1px solid rgba(244,114,182,0.30); border-radius: 12px;">
+        <strong>📡 Networks</strong>
+      </td>
+    </tr>
+  </table>
+</div>
 
