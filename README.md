@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Jetbrains+Mono&size=32&color=A855F7&center=true&vCenter=true&width=800&height=80&lines=E+Nausheen+%F0%9F%91%8B;CS+Student+%7C+AI%2FML+Engineer;Systems+Design+%26+Full+Stack+Dev" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Jetbrains+Mono&size=32&color=A855F7&center=true&vCenter=true&width=800&height=80&lines=E+Nausheen+%F0%9F%91%8B;CS+Student+%7C+AI%2FML+Engineer;Full+Stack+Developer" alt="Typing SVG" />
 </div>
 
 ---
@@ -19,17 +19,9 @@
 
 ## **🎯 About Me**
 
-```python
-class NausheenProfile:
-    def __init__(self):
-        self.name = "E Nausheen"
-        self.role = "CS Student | AI/ML Enthusiast"
-        self.focus = ["LLMs", "Systems Design", "Web Dev", "ML/AI"]
-        self.currently = "Building scalable AI tools & backend systems"
-        self.mindset = "Code that matters, shipped fast"
-```
+I build production-ready systems that solve real problems. Full-stack AI engineer learning at the intersection of **systems**, **ML**, and **web development**.
 
-I build **production-ready systems** that solve real problems. Full-stack AI engineer learning at the intersection of **systems**, **ML**, and **web development**.
+I’m a CS student focused on building practical AI tools, backend systems, and polished web experiences that turn ideas into working products.
 
 ---
 
@@ -103,5 +95,23 @@ I build **production-ready systems** that solve real problems. Full-stack AI eng
   <img src="assets/skills-radar.svg" alt="Skills Radar" width="600"/>
 </div>
 
-### **Languages & Frameworks**
+### **Frameworks & Tools**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### **Core Strengths**
+
+- AI/ML and LLM-based systems
+- Operating systems and backend architecture
+- Data structures and algorithmic problem solving
+- Web application development and APIs
+- Computer networks and distributed systems
 
