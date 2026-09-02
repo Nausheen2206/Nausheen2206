@@ -6,7 +6,7 @@ import urllib.request
 
 
 USERNAME = "Nausheen2206"
-COLORS = ["#1F2937", "#164E63", "#0E7490", "#10B981", "#FBBF24", "#F97316"]
+COLORS = ["#1F2937", "#312E81", "#6D28D9", "#0EA5E9", "#D946EF", "#F97316"]
 
 
 def fetch_contributions(username):
@@ -90,7 +90,7 @@ def build_svg(contributions, output_file="assets/contribution-game.svg"):
         '<svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg">',
         "<defs>",
         '<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#0D1117"/></linearGradient>',
-        '<linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#A855F7"/><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#10B981"/></linearGradient>',
+        '<linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#A855F7"/><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#D946EF"/></linearGradient>',
         '<filter id="glow"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>',
         '<style>.hot{animation:pulse 1.8s ease-in-out infinite}.scan{animation:scan 4s linear infinite}@keyframes pulse{50%{opacity:.65}}@keyframes scan{from{transform:translateX(0)}to{transform:translateX(1120px)}}</style>',
         "</defs>",
@@ -121,7 +121,7 @@ def build_svg(contributions, output_file="assets/contribution-game.svg"):
             '<rect x="42" y="307" width="1116" height="1" fill="#263244"/>',
             f'<text x="42" y="334" fill="#A5B4FC" font-family="monospace" font-size="12">ACTIVE DAYS  {active_days}</text>',
             '<text x="310" y="334" fill="#22D3EE" font-family="monospace" font-size="12">STREAK MODE  ONLINE</text>',
-            '<text x="930" y="334" fill="#10B981" font-family="monospace" font-size="12">LEVEL UP +SHIP</text>',
+            '<text x="930" y="334" fill="#D946EF" font-family="monospace" font-size="12">LEVEL UP +SHIP</text>',
             "</svg>",
         ]
     )
