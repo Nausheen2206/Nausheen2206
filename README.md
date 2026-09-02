@@ -167,11 +167,11 @@
 
 ---
 
-## **🔥 GitHub Contribution Streak**
+## **📡 Build Signal**
 
 <div align="center">
   <a href="https://github.com/Nausheen2206">
-    <img src="https://streak-stats.demolab.com?user=Nausheen2206&theme=tokyonight&hide_border=true&background=0D1117&ring=A855F7&fire=F97316&currStreakLabel=22D3EE" alt="GitHub contribution streak" />
+    <img src="https://ghchart.rshah.org/22D3EE/Nausheen2206" alt="Nausheen's GitHub contribution activity graph" />
   </a>
 </div>
 
