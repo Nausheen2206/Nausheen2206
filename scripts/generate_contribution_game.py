@@ -1,7 +1,7 @@
 import datetime as dt
-import hashlib
 import json
 import os
+import re
 import urllib.request
 
 
@@ -12,7 +12,7 @@ COLORS = ["#1F2937", "#164E63", "#0E7490", "#10B981", "#FBBF24", "#F97316"]
 def fetch_contributions(username):
     token = os.environ.get("GITHUB_TOKEN")
     if not token:
-        return {}
+        return fetch_public_contributions(username)
 
     query = {
         "query": "query($login:String!) { user(login:$login) { contributionsCollection { contributionCalendar { weeks { contributionDays { date contributionCount } } } } } }",
@@ -39,18 +39,32 @@ def fetch_contributions(username):
             for day in week["contributionDays"]
         }
     except (KeyError, OSError, json.JSONDecodeError):
-        return {}
+        return fetch_public_contributions(username)
 
 
-def fallback_contributions():
-    today = dt.date.today()
-    start = today - dt.timedelta(days=364)
-    values = {}
-    for offset in range(365):
-        date = start + dt.timedelta(days=offset)
-        digest = hashlib.sha256(date.isoformat().encode("utf-8")).digest()[0]
-        values[date.isoformat()] = 0 if digest % 5 else digest % 18
-    return values
+def fetch_public_contributions(username):
+    url = f"https://github.com/users/{username}/contributions"
+    request = urllib.request.Request(url, headers={"User-Agent": "profile-contribution-board"})
+    try:
+        with urllib.request.urlopen(request, timeout=15) as response:
+            html = response.read().decode("utf-8")
+    except OSError as error:
+        raise RuntimeError("Unable to fetch real GitHub contribution data") from error
+
+    pattern = re.compile(
+        r'data-date="(?P<date>[^"]+)".*?data-level="(?P<level>\d+)".*?'
+        r'id="(?P<cell>contribution-day-component-[^"]+)".*?'
+        r'<tool-tip[^>]*for="(?P=cell)"[^>]*>(?P<label>.*?)</tool-tip>',
+        re.DOTALL,
+    )
+    contributions = {}
+    for match in pattern.finditer(html):
+        label = re.sub(r"<[^>]+>", "", match.group("label")).strip()
+        count_match = re.search(r"(\d+) contribution", label)
+        contributions[match.group("date")] = int(count_match.group(1)) if count_match else 0
+    if not contributions:
+        raise RuntimeError("GitHub contribution calendar returned no real data")
+    return contributions
 
 
 def contribution_level(count, maximum):
@@ -119,5 +133,5 @@ def build_svg(contributions, output_file="assets/contribution-game.svg"):
 
 
 if __name__ == "__main__":
-    data = fetch_contributions(USERNAME) or fallback_contributions()
+    data = fetch_contributions(USERNAME)
     build_svg(data)
