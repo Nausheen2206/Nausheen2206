@@ -175,3 +175,7 @@
   </a>
 </div>
 
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=Nausheen2206&theme=tokyonight&hide_border=true&background=0D1117&ring=A855F7&fire=F97316&currStreakLabel=22D3EE" alt="Nausheen's GitHub contribution streak" />
+</div>
+
