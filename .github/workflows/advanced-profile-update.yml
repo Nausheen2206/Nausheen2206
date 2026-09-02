@@ -28,6 +28,11 @@ jobs:
       - name: Generate Project Cards
         run: python scripts/generate_project_cards.py
 
+      - name: Generate Contribution Quest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_contribution_game.py
+
       - name: Get GitHub Metrics
         uses: lowlighter/metrics@latest
         with:

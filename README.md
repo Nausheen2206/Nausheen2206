@@ -167,11 +167,11 @@
 
 ---
 
-## **📡 Build Signal**
+## **🎮 Contribution Quest**
 
 <div align="center">
   <a href="https://github.com/Nausheen2206">
-    <img src="https://ghchart.rshah.org/22D3EE/Nausheen2206" alt="Nausheen's GitHub contribution activity graph" />
+    <img src="assets/contribution-game.svg" alt="Nausheen's gamified GitHub contribution graph" width="100%" />
   </a>
 </div>
 
