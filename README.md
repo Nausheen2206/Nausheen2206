@@ -26,7 +26,7 @@
 
 <div align="center">
   
-  [![GitHub Views](https://komarev.com/ghpvc/?username=Nausheen2206&color=A855F7&style=for-the-badge)](https://github.com/Nausheen2206)
+  [![GitHub Views](https://komarev.com/ghpvc/?username=Nausheen2206&color=A855F7&style=for-the-badge&label=PROFILE%20VIEWS)](https://github.com/Nausheen2206)
   [![GitHub Followers](https://img.shields.io/github/followers/Nausheen2206?style=for-the-badge&color=A855F7)](https://github.com/Nausheen2206)
   
 </div>
@@ -178,4 +178,3 @@
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=Nausheen2206&theme=tokyonight&hide_border=true&background=0D1117&ring=A855F7&fire=F97316&currStreakLabel=22D3EE" alt="Nausheen's GitHub contribution streak" />
 </div>
-
