@@ -26,7 +26,7 @@
 
 <div align="center">
   
-  [![GitHub Views](https://komarev.com/ghpvc/?username=Nausheen2206&color=A855F7&style=for-the-badge&label=PROFILE%20VIEWS)](https://github.com/Nausheen2206)
+  [![GitHub Views](https://visitor-badge.laobi.icu/badge?page_id=Nausheen2206.Nausheen2206&left_color=555&right_color=A855F7&left_text=PROFILE%20VIEWS)](https://github.com/Nausheen2206)
   [![GitHub Followers](https://img.shields.io/github/followers/Nausheen2206?style=for-the-badge&color=A855F7)](https://github.com/Nausheen2206)
   
 </div>
