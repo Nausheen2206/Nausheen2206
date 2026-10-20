@@ -5,6 +5,10 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
+concurrency:
+  group: profile-assets-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   update-profile:
     runs-on: ubuntu-latest
@@ -56,5 +60,11 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add assets/
-          git commit -m "chore: auto-update profile assets [skip ci]" || true
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: auto-update profile assets [skip ci]"
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          else
+            echo "No profile asset changes to commit."
+          fi
