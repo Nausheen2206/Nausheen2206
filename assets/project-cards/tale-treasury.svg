@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="280" viewBox="0 0 640 280" role="img" aria-labelledby="title description">
+  <title id="title">Tale-Treasury project card</title>
+  <desc id="description">An interactive story world with branching tales, reader accounts, and collectible trophies.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="640" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151D2B"/>
+      <stop offset="1" stop-color="#101722"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="640" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBBF24" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#334155" stop-opacity=".7"/>
+    </linearGradient>
+    <style>
+      .title { fill: #F1F5F9; font: 600 19px 'Segoe UI', Arial, sans-serif; }
+      .copy { fill: #AAB7C8; font: 13px 'Segoe UI', Arial, sans-serif; }
+      .tag { fill: #D8E1EC; font: 11px 'Segoe UI', Arial, sans-serif; }
+      .meta { fill: #78879A; font: 10px 'Segoe UI', Arial, sans-serif; letter-spacing: 1.4px; }
+      .action { fill: #FBBF24; font: 600 11px 'Segoe UI', Arial, sans-serif; letter-spacing: 1px; }
+      .card-surface { transition: stroke .2s ease, fill .2s ease; }
+      svg:hover .card-surface { stroke: #FBBF24; }
+    </style>
+  </defs>
+  <rect class="card-surface" x="1" y="1" width="638" height="278" rx="18" fill="url(#surface)" stroke="url(#edge)" stroke-width="1.5"/>
+  <path d="M520 1h100a18 18 0 0 1 18 18v92c-45-13-88-44-118-110Z" fill="#FBBF24" opacity=".055"/>
+  <rect x="24" y="24" width="48" height="48" rx="14" fill="#FBBF24" fill-opacity=".12" stroke="#FBBF24" stroke-opacity=".35"/>
+  <g transform="translate(36 36)" fill="none" stroke="#FBBF24" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v17H6.5A2.5 2.5 0 0 1 4 17.5v-12Z"/>
+<path d="M4 6h13M8 10h8M8 13h6M8 16h5"/>
+<path d="m19 3 1 2 2 .3-1.5 1.4.4 2-1.9-1-1.9 1 .4-2L17 5.3l2-.3 1-2Z" transform="translate(-2 1) scale(.8)"/>
+  </g>
+  <text x="90" y="35" class="meta">SELECTED PROJECT  /  04</text>
+  <text x="90" y="61" class="title">Tale-Treasury</text>
+  <path d="M28 91h584" stroke="#263244"/>
+  <text x="28" y="119" class="copy">An interactive story world with branching tales, reader</text>
+  <text x="28" y="140" class="copy">accounts, and collectible trophies.</text>
+  <text x="28" y="163" class="meta">TECH STACK</text>
+  <g><rect x="28" y="176" width="59" height="24" rx="12" fill="#202938" stroke="#364152"/><circle cx="40" cy="188" r="3" fill="#FBBF24"/><text x="49" y="192" class="tag">React</text></g><g><rect x="95" y="176" width="54" height="24" rx="12" fill="#202938" stroke="#364152"/><circle cx="107" cy="188" r="3" fill="#FBBF24"/><text x="116" y="192" class="tag">Vite</text></g><g><rect x="157" y="176" width="73" height="24" rx="12" fill="#202938" stroke="#364152"/><circle cx="169" cy="188" r="3" fill="#FBBF24"/><text x="178" y="192" class="tag">Node.js</text></g><g><rect x="238" y="176" width="73" height="24" rx="12" fill="#202938" stroke="#364152"/><circle cx="250" cy="188" r="3" fill="#FBBF24"/><text x="259" y="192" class="tag">Express</text></g><g><rect x="319" y="176" width="73" height="24" rx="12" fill="#202938" stroke="#364152"/><circle cx="331" cy="188" r="3" fill="#FBBF24"/><text x="340" y="192" class="tag">MongoDB</text></g><g><rect x="400" y="176" width="54" height="24" rx="12" fill="#202938" stroke="#364152"/><circle cx="412" cy="188" r="3" fill="#FBBF24"/><text x="421" y="192" class="tag">Groq</text></g>
+  <path d="M28 235h584" stroke="#263244"/>
+  <text x="28" y="258" class="action">OPEN REPOSITORY</text>
+  <path d="M151 254h22m-7-7 7 7-7 7" fill="none" stroke="#FBBF24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="603" cy="253" r="3" fill="#FBBF24" opacity=".8"/>
+</svg>

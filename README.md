@@ -60,64 +60,31 @@
 
 ---
 
-## **🚀 Featured Projects**
+## Featured Projects
 
 <table>
   <tr>
-    <td width="50%" style="padding: 16px; background: rgba(168,85,247,0.06); border: 1px solid rgba(168,85,247,0.22); border-radius: 16px;">
-      <h3>📚 Course-in-LLMs</h3>
-      <p>Deep dive into LLM architecture, fine-tuning, and deployment. Hands-on implementations from scratch.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
-        <img src="https://img.shields.io/badge/LLMs-FF6B6B?style=flat&logoColor=white" />
-      </p>
-      <a href="https://github.com/Nausheen2206/Course-in-LLM-s">View Project →</a>
+    <td width="50%">
+      <a href="https://github.com/Nausheen2206/Course-in-LLM-s"><img src="assets/project-cards/course-in-llms.svg" alt="Course-in-LLM-s — deep-learning coursework for large language models. Tech stack: Python, Jupyter, Deep Learning." width="100%" /></a>
     </td>
-    <td width="50%" style="padding: 16px; background: rgba(34,211,238,0.06); border: 1px solid rgba(34,211,238,0.22); border-radius: 16px;">
-      <h3>🔥 Enterprise Network Firewall</h3>
-      <p>Systems-level firewall simulation. Packet filtering, rule engine, real network protocols.</p>
-      <p>
-        <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" />
-        <img src="https://img.shields.io/badge/Systems-4A90E2?style=flat&logoColor=white" />
-        <img src="https://img.shields.io/badge/Networking-FF9800?style=flat&logoColor=white" />
-      </p>
-      <a href="https://github.com/Nausheen2206/Enterprise-Network-Firewall">View Project →</a>
+    <td width="50%">
+      <a href="https://github.com/Nausheen2206/Enterprise-Network-Firewall"><img src="assets/project-cards/enterprise-network-firewall.svg" alt="Enterprise Network Firewall — protocol filtering, VLAN segmentation, ACLs, and NAT. Tech stack: Python, ACLs, VLAN, NAT." width="100%" /></a>
     </td>
   </tr>
   <tr>
-    <td width="50%" style="padding: 16px; background: rgba(16,185,129,0.06); border: 1px solid rgba(16,185,129,0.22); border-radius: 16px;">
-      <h3>🔍 Code Plagiarism Detector</h3>
-      <p>ML-powered code similarity engine using AST analysis. 95%+ accuracy on detection.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/ML-FF6B6B?style=flat&logoColor=white" />
-        <img src="https://img.shields.io/badge/NLP-4A90E2?style=flat&logoColor=white" />
-      </p>
-      <a href="https://github.com/Nausheen2206/CodePlagiarismDetector">View Project →</a>
+    <td width="50%">
+      <a href="https://github.com/Nausheen2206/CodePlagiarismDetector"><img src="assets/project-cards/code-plagiarism-detector.svg" alt="Code Plagiarism Detector — C++ source similarity using rolling hash, tries, and graph similarity." width="100%" /></a>
     </td>
-    <td width="50%" style="padding: 16px; background: rgba(251,191,36,0.06); border: 1px solid rgba(251,191,36,0.22); border-radius: 16px;">
-      <h3>🎮 Crossword Puzzle Game</h3>
-      <p>Interactive puzzle solver with AI hint generation. Full UI with word database.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
-        <img src="https://img.shields.io/badge/UI-FF9800?style=flat&logoColor=white" />
-      </p>
-      <a href="https://github.com/Nausheen2206/Crossword-Puzzle-Game">View Project →</a>
+    <td width="50%">
+      <a href="https://github.com/Nausheen2206/Tale-Treasury"><img src="assets/project-cards/tale-treasury.svg" alt="Tale-Treasury — interactive branching stories, accounts, and collectible trophies. Tech stack: React, Vite, Node.js, Express, MongoDB, Groq." width="100%" /></a>
     </td>
   </tr>
   <tr>
-    <td width="100%" colspan="2" style="padding: 18px; background: rgba(244,114,182,0.06); border: 1px solid rgba(244,114,182,0.22); border-radius: 16px;">
-      <h3>🤖 StudyFlow AI</h3>
-      <p>Adaptive learning assistant powered by LLMs. Personalized study paths, smart Q&A, spaced repetition.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" />
-        <img src="https://img.shields.io/badge/LLMs-FF6B6B?style=flat&logoColor=white" />
-        <img src="https://img.shields.io/badge/Full%20Stack-4A90E2?style=flat&logoColor=white" />
-      </p>
-      <a href="https://github.com/Nausheen2206/studyflow-ai">View Project →</a>
+    <td width="50%">
+      <a href="https://github.com/Nausheen2206/studyflow-ai"><img src="assets/project-cards/studyflow-ai.svg" alt="StudyFlow AI — AI tutor, quiz generator, study planner, notes, and focus tools. Tech stack: React, Express, MongoDB, Gemini AI." width="100%" /></a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/Nausheen2206/-Phishing-Email-Detection-System"><img src="assets/project-cards/phishing-email-detection.svg" alt="Phishing Email Detection — email threat detection with text processing, machine learning, and deep-learning models. Tech stack: Python, TensorFlow, Scikit-learn, NLP." width="100%" /></a>
     </td>
   </tr>
 </table>

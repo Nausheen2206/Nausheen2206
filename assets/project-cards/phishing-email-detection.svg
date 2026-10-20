@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="280" viewBox="0 0 640 280" role="img" aria-labelledby="title description">
+  <title id="title">Phishing Email Detection project card</title>
+  <desc id="description">Email threat detection experiments using text processing, classical machine learning, and deep-learning models.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="640" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151D2B"/>
+      <stop offset="1" stop-color="#101722"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="640" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FB7185" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#334155" stop-opacity=".7"/>
+    </linearGradient>
+    <style>
+      .title { fill: #F1F5F9; font: 600 19px 'Segoe UI', Arial, sans-serif; }
+      .copy { fill: #AAB7C8; font: 13px 'Segoe UI', Arial, sans-serif; }
+      .tag { fill: #D8E1EC; font: 11px 'Segoe UI', Arial, sans-serif; }
+      .meta { fill: #78879A; font: 10px 'Segoe UI', Arial, sans-serif; letter-spacing: 1.4px; }
+      .action { fill: #FB7185; font: 600 11px 'Segoe UI', Arial, sans-serif; letter-spacing: 1px; }
+      .card-surface { transition: stroke .2s ease, fill .2s ease; }
+      svg:hover .card-surface { stroke: #FB7185; }
+    </style>
+  </defs>
+  <rect class="card-surface" x="1" y="1" width="638" height="278" rx="18" fill="url(#surface)" stroke="url(#edge)" stroke-width="1.5"/>
+  <path d="M520 1h100a18 18 0 0 1 18 18v92c-45-13-88-44-118-110Z" fill="#FB7185" opacity=".055"/>
+  <rect x="24" y="24" width="48" height="48" rx="14" fill="#FB7185" fill-opacity=".12" stroke="#FB7185" stroke-opacity=".35"/>
+  <g transform="translate(36 36)" fill="none" stroke="#FB7185" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3" y="5" width="18" height="14" rx="2"/>
+<path d="m4 7 8 6 8-6M16.5 16.5l2 2 3.5-4"/>
+  </g>
+  <text x="90" y="35" class="meta">SELECTED PROJECT  /  06</text>
+  <text x="90" y="61" class="title">Phishing Email Detection</text>
+  <path d="M28 91h584" stroke="#263244"/>
+  <text x="28" y="119" class="copy">Email threat detection experiments using text processing,</text>
+  <text x="28" y="140" class="copy">classical machine learning, and deep-learning models.</text>
+  <text x="28" y="163" class="meta">TECH STACK</text>
+  <g><rect x="28" y="176" width="66" height="24" rx="12" fill="#202938" stroke="#364152"/><circle cx="40" cy="188" r="3" fill="#FB7185"/><text x="49" y="192" class="tag">Python</text></g><g><rect x="102" y="176" width="94" height="24" rx="12" fill="#202938" stroke="#364152"/><circle cx="114" cy="188" r="3" fill="#FB7185"/><text x="123" y="192" class="tag">TensorFlow</text></g><g><rect x="204" y="176" width="108" height="24" rx="12" fill="#202938" stroke="#364152"/><circle cx="216" cy="188" r="3" fill="#FB7185"/><text x="225" y="192" class="tag">Scikit-learn</text></g><g><rect x="320" y="176" width="54" height="24" rx="12" fill="#202938" stroke="#364152"/><circle cx="332" cy="188" r="3" fill="#FB7185"/><text x="341" y="192" class="tag">NLP</text></g>
+  <path d="M28 235h584" stroke="#263244"/>
+  <text x="28" y="258" class="action">OPEN REPOSITORY</text>
+  <path d="M151 254h22m-7-7 7 7-7 7" fill="none" stroke="#FB7185" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="603" cy="253" r="3" fill="#FB7185" opacity=".8"/>
+</svg>
